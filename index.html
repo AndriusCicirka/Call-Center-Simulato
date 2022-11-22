@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="main.css" />
+<html>
+   <body>
+      <div class="container">
+         <header>
+            <head>
+               <h1>Call Center System</h1>
+            </head>
+         </header>
+         <div class="floating__window hidden">
+            <div class="floating__window--sections">
+               <div class="floating__window--left">
+                  <div>
+                     <div>
+                        <label>Name</label>
+                        <input type="text" id="form_Name" />
+                     </div>
+                     <div>
+                        <label>Phone Number</label>
+                        <input type="text" id="form_PhoneNumber" />
+                     </div>
+                     <div>
+                        <label for="form_VIP">Status</label>
+                        <select id="form_VIP">
+                           <option value="VIP">VIP</option>
+                           <option value="REG">REG</option>
+                        </select>
+                     </div>
+                     <div>
+                        <label>Call Reason</label>
+                        <textarea
+                           rows="5"
+                           cols="31"
+                           style="resize: none"
+                           id="form_CallReason"
+                        ></textarea>
+                     </div>
+                     <div>
+                        <label>Additional Comments</label>
+                        <textarea
+                           rows="5"
+                           cols="31"
+                           style="resize: none"
+                           id="form_AdditionalComments"
+                        ></textarea>
+                     </div>
+                  </div>
+               </div>
+               <div class="floating__window--right">
+                  <div>
+                     <p id="acceptedCallName"></p>
+                     <p id="acceptedPhoneNumber"></p>
+                     <p id="acceptedCallerStatus"></p>
+                     <p id="acceptedCallReason"></p>
+                     <p id="acceptedCallComments"></p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="floating__window--button--div">
+               <button type="submit" class="floating__window--button">
+                  Submit
+               </button>
+            </div>
+         </div>
+         <div class="overlay hidden"></div>
+         <div class="interface__container">
+            <div class="dashboard__container">
+               <button class="button__false" id="workingStatusButton">
+                  Working
+               </button>
+               <button class="button__false" id="debugModeButton">Debug</button>
+               <button id="addCallerButton">Add a Caller</button>
+               <button id="downloadCallLogs">Download Call Logs</button>
+            </div>
+            <div class="call__line--container">
+               <div class="call__line">
+                  <button
+                     type="button"
+                     id="acceptCallButton1"
+                     class="button__accept--call"
+                  >
+                     Accept a Call
+                  </button>
+                  <div class="call__line--one"></div>
+               </div>
+               <div class="call__line">
+                  <button
+                     type="button"
+                     id="acceptCallButton2"
+                     class="button__accept--call"
+                  >
+                     Accept a Call
+                  </button>
+                  <div class="call__line--two"></div>
+               </div>
+               <div class="call__line">
+                  <button
+                     type="button"
+                     id="acceptCallButton3"
+                     class="button__accept--call"
+                  >
+                     Accept a Call
+                  </button>
+                  <div class="call__line--three"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+   <script type="module" src="ND2.js"></script>
+   <div class="json hidden"></div>
+</html>

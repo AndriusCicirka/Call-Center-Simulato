@@ -1,0 +1,54 @@
+{
+   "callers": [
+      {
+         "name": "Romas",
+         "VIP": false,
+         "number": "+370 123 12345",
+         "reason": "Statau tūkstančius Topsporte ir niekaip negaliu suprast - žiūrėt.",
+         "comments": "Agresyvus"
+      },
+
+      {
+         "name": "Prince of Nigeria",
+         "VIP": true,
+         "number": "+41 696 96969",
+         "reason": "I give money yuo give bank detail",
+         "comments": "Potencialus apgavikas. Galimai."
+      },
+      {
+         "name": "Greta",
+         "VIP": false,
+         "number": "+49 123 34512",
+         "reason": "How dare you?",
+         "comments": "?"
+      },
+      {
+         "name": "Tomas",
+         "VIP": false,
+         "number": "+370 345 12345",
+         "reason": "Močiutė kotletų nebeverda, ką daryt?",
+         "comments": ""
+      },
+      {
+         "name": "Gitanas",
+         "VIP": true,
+         "number": "+370 111 11111",
+         "reason": "Labas, aš prezidentas Gitanas, pervesk 50 eurų man.",
+         "comments": "Ką?"
+      },
+      {
+         "name": "Jonas",
+         "VIP": false,
+         "number": "+370 543 12345",
+         "reason": "Aš jonas",
+         "comments": ""
+      },
+      {
+         "name": "Jons",
+         "VIP": false,
+         "number": "+371 567 34567",
+         "reason": "Labdien",
+         "comments": "Žirga galva"
+      }
+   ]
+}
